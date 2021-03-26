@@ -1,0 +1,36 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 46827b8..56938c1 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,8 +9,8 @@[m
+ </head>[m
+ <body>[m
+     <h1 id="title">Jaya Shambho!</h1>[m
+[31m-    <h2>This is Saumya The Great!!!!</h2><br>[m
+[31m-    <h2>Jaya Shambho Everyone!!!!</h2>    [m
+[32m+[m[32m    <h2><p>This is Saumya The Great!!!!</p></h2><br>[m
+[32m+[m[32m    <h2><p>Jaya Shambho Everyone!!!!</p></h2>[m[41m    [m
+ </body>[m
+ <script src="script.js"></script>[m
+ </html>[m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex 341215b..667d366 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -22,6 +22,9 @@[m [mh2{[m
+     width: 100%;[m
+     text-align: center;[m
+     color: white;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mh2 p{[m
+     animation: mymove 1s infinite;[m
+ }[m
+ [m
+[36m@@ -29,4 +32,4 @@[m [mh2{[m
+     0%   {transform: scaleY(1);}[m
+     50%  {transform: scaleY(1.2);}[m
+     100%  {transform: scaleY(1);}[m
+[31m-  }[m
+\ No newline at end of file[m
+[32m+[m[32m  }[m

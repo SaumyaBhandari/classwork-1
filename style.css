@@ -24,12 +24,12 @@ h2{
     color: white;
 }
 
-h2 p{
+p{
     animation: mymove 1s infinite;
 }
 
 @keyframes mymove {
-    0%   {transform: scaleY(1);}
-    50%  {transform: scaleY(1.2);}
-    100%  {transform: scaleY(1);}
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.2);}
+    100%  {transform: scale(1);}
   }
